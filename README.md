@@ -9,10 +9,7 @@ Just clone/download the package and that's it.
 
 You need [NodeJS](https://nodejs.org/en/download/)
 
-In the folder of the project run: 
-
-- ```node server.js```
-- ```npm run start```
+In the folder of the project run: ```npm run start```.
 
 Open the index.html file in your favourite browsers (you don'e need a web server).
 
