@@ -14,10 +14,9 @@
                 console.log(e.data);
             };
 
-            // SSEs
-            var src = new EventSource(a + t1 + s);
-            src1.onmessage = fn;
-        // src1.close();
+            const src = new EventSource("http://localhost:5000/sse", /* { withCredentials: true } */);
+            src.onmessage = fn;
+            // src1.close();
         </script>
     </body>
 
