@@ -51,5 +51,6 @@ function sendSSE(request, response) {
 // setup simple message
 function constructSSE(response, id, data) {
     response.write('id: ' + id + '\n');
+    // response.write('event: ' + 'add' + '\n');
     response.write("data: " + msg + port + '\n\n');
 }

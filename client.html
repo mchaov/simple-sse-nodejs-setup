@@ -17,6 +17,10 @@
             const src = new EventSource("http://localhost:5000/sse", /* { withCredentials: true } */);
             src.onmessage = fn;
             // src1.close();
+
+            // src.addEventListener("add", function(e){
+            //     console.log(e.type);
+            // });
         </script>
     </body>
 
