@@ -1,0 +1,25 @@
+{
+  "name": "simple-sse-nodejs-setup",
+  "version": "1.0.0",
+  "description": "Simple setup to help you play around with SSE and NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchaov/simple-sse-nodejs-setup.git"
+  },
+  "keywords": [
+    "SSE",
+    "NODEJS",
+    "EventSource"
+  ],
+  "author": "Martin Chaov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mchaov/simple-sse-nodejs-setup/issues"
+  },
+  "homepage": "https://github.com/mchaov/simple-sse-nodejs-setup#readme"
+}
