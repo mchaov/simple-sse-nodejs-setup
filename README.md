@@ -11,6 +11,6 @@ You need [NodeJS](https://nodejs.org/en/download/)
 
 In the folder of the project run: ```npm run start```.
 
-Open the index.html file in your favourite browsers (you don'e need a web server).
+Open the client.html file in your favourite browsers (you don't need a web server).
 
 ## Have fun :) 
